@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 1rem 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .container {
+            padding-top: 60px;
+            text-align: center;
+	 margin: 100;
+   	 padding: 50;
+   	 box-sizing: border-box;
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .profile-photo {
+            width: 150px;
+            border-radius: 10%; /* Rounded border for profile photo */
+            margin-right: 20px;
+        }
+
+        .profile-details {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .profile-details h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-details p {
+            font-size: 1.1rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            font-size: 1.5rem;
+            position: relative;
+        }
+
+        section .icons {
+              margin-top: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        section .icons a {
+           display: inline-block;
+            margin: 10 20px;
+            font-size: 36px;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        section .icons a:hover {
+            color: #000;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section ul li {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #ffb3b3;
+            text-decoration: none;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Manikandan RM</h1>
+        <nav>
+            <ul>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#awards">Awards & Achievements</a></li>
+                <li><a href="#languages">Languages</a></li> <li>  </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="profile-section">
+            <img src="C:\Users\MANIKANDAN\Downloads\image1.png" alt="Profile Photo" class="profile-photo">
+            <div class="profile-details">
+                <h2>MANIKANDAN R M</h2>
+                <p>As an Electronics and Communication Engineering student with a passion for the IT field, I specialize in mobile application development. I am eager to learn and contribute to the development of innovative technologies.</p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/_mystic_bronze_/" class="icon"><i class="fab fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/manikandan-r-m-501138209" class="icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:meyyappan1800@gmail.com" class="icon"><i class="far fa-envelope"></i></a>
+                    <a href="https://github.com/RMani2002" class="icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>BE in Electronics and Communication Engineering (2021-2025)</strong><br>
+                    Sri Venkateswara College of Engineering
+                </li>
+                <li>
+                    <strong>Higher Secondary (2020-2021)</strong><br>
+                    Chettinad Public School (73%)
+                </li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Intern at Larsen & Toubro Limited (Construction) (10-Jul-2023 to 29-Jul-2023)</strong><br>
+                    <p>Worked on Application development in the ISD Department using Flutter. Completed application front-end and back-end development, including JSON data usage and image base64 conversion.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Remote Tracking System for Transparent Police Bandobast Monitoring</strong> - Rajasthan police hackathon-1.0</li>
+                <li><strong>Development of a Digital Platform for multi-modal visibility of coal transportation</strong> - SIH</li>
+                <li><strong>Inter college Hackathon</strong> - LUCEB for temperature dependent speed control appliance</li>
+                <li><strong>Inter college project expo (SSN)</strong> - Developed an Arduino based traffic clearance system</li>
+                <li><strong>Inter college paper presentation & project expo</strong> - ISTE on Tool for monitoring ground personnel</li>
+                <li><strong>Intra college Line following bot</strong></li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>App Development</li>
+                <li>UI/UX</li>
+                <li>App Security</li>
+                <li>Video Editing</li>
+                <li>Leadership</li>
+                <li>Problem Solving</li>
+                <li>Hardware Development</li>
+                <li>Analysis</li>
+            </ul>
+        </section>
+        <section id="awards">
+            <h2>Awards & Achievements</h2>
+            <ul>
+                <li><strong>2024</strong> - 2nd runner up (open category), Rajasthan police hackathon-1.0 by RACCAM</li>
+                <li><strong>2023</strong> - 2nd runner up, Intra college Hackathon - Hackelite</li>
+                <li><strong>2017</strong> - GRADE 1 Practical - Merit, Trinity College London (Electronic Keyboards)</li>
+                <li><strong>2017</strong> - GRADE 1 Theory - Distinction, Trinity College London (Electronic Keyboards)</li>
+            </ul>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English - Professional working proficiency</li>
+                <li>Tamil - Limited working proficiency</li>
+                <li>Hindi - Limited working proficiency</li>
+                <li>French - Elementary proficiency</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>Email: meyyappan1800@gmail.com</p>
+        <p>Phone: +91 9600867541</p>
+        <p>Location: Moulivakkam, Chennai-116</p>
+        <p><a href="https://www.linkedin.com/in/manikandan-rm-501138209" target="_blank">LinkedIn</a> | <a href="https://github.com/RMani2002" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
